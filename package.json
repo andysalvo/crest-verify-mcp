@@ -1,6 +1,6 @@
 {
   "name": "@crestdeploymentsystems/verify-mcp",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "MCP server for Crest Verify. Check any x402 endpoint before your agent spends. Returns SPEND / CAUTION / INVESTIGATE / DO NOT SPEND backed by 50K+ classified services.",
   "type": "module",
   "bin": {
@@ -37,5 +37,6 @@
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.29.0"
-  }
+  },
+  "mcpName": "crest-verify"
 }
