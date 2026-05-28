@@ -1,0 +1,41 @@
+{
+  "name": "@crestdeploymentsystems/verify-mcp",
+  "version": "0.1.0",
+  "description": "MCP server for Crest Verify. Check any x402 endpoint before your agent spends. Returns SPEND / CAUTION / INVESTIGATE / DO NOT SPEND backed by 50K+ classified services.",
+  "type": "module",
+  "bin": {
+    "crest-verify-mcp": "./bin/server.mjs"
+  },
+  "main": "./src/server.mjs",
+  "files": [
+    "bin",
+    "src",
+    "README.md"
+  ],
+  "keywords": [
+    "mcp",
+    "x402",
+    "verify",
+    "trust",
+    "agent",
+    "model-context-protocol",
+    "crest",
+    "bazaar",
+    "preflight",
+    "spend-check"
+  ],
+  "author": "Crest Deployment Systems LLC <contact@crestsystems.ai>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andysalvo/crest",
+    "directory": "packages/verify-mcp"
+  },
+  "homepage": "https://verify.crestsystems.ai",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0"
+  }
+}
